@@ -32,7 +32,11 @@
     </form>
       <div class="input-group mb-3">
         <div style="margin: auto">
-      {% if img %}   <img src="{{ img }}"  alt="qr_image" > {%endif%}
+      {% if img %} 
+          <a href="{{img}}" download>
+          <img src="{{ img }}"  alt="qr_image" >
+          </a>
+          {%endif%}
       </div>
   </div>
 </div>
