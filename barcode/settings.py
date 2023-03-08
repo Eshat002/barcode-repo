@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-fkoy)4+k9qw7ty=j^fp0oh0kbzra_^g-0rmd&kthb_6yw(_%#*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["barcode-app-1.onrender.com","127.0.0.1"]
+ALLOWED_HOSTS = ["barcode-app-1.onrender.com"]
 
 
 # Application definition
